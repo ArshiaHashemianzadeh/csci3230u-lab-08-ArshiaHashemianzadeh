@@ -12,18 +12,24 @@ produced or edited code you submit — **before** you commit it. Using AI only t
 
 ## Log (one entry per AI use — copy the block for each)
 
-### #1 — <short title>
-- **Date:** YYYY-MM-DD
-- **Tool / model:** <free-tier assistant — free models only>
-- **Files:** `src/...`
+### AI Use #1
+
+- **Date:** 2026-11-11
+- **Tool / model:** ChatGPT – GPT-6 (Free tier)
+- **Files:** `src/App.jsx`
 - **Prompt (verbatim):**
 
-  ```
-  <paste the exact prompt you gave the AI>
-  ```
+```text
+Im learning react this is my App.jsx my Addtodo form is done 
 
-- **What it produced & what I kept / changed / rejected:** <1–3 sentences — and why the
-  result is correct>
+
+
+Add three buttons labelled exactly "All", "Active", "Completed" that call setFilter with "all", "active", "completed". Use onclick with an arrow function.
+```
+
+- **What it produced & what I kept / changed / rejected:**
+
+ChatGPT suggested produced three filter buttons using arrow functions to update the filter state. I kept the buttons, corrected `onclick` to React's `onClick` syntaxz
 
 ---
 
